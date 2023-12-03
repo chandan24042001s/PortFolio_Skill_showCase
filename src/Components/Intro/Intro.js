@@ -33,8 +33,16 @@ const Intro = () => {
             <img className='profile_logo1' src={Vector1} alt=''/>
             <img className='profile_logo2' src={Vector2} alt='' />
             <img className='profile_logo' src={boy} alt='' /> 
-            <div>
+            <img className='emoji' src={glassemoji} alt='' />
+            <div className='blur' style={{background:'rgb(238,210,255'}} ></div>
+            <div className='blur' style={{background:'#C1F5FF', top:'17rem',width:'21rem',
+                height:'11rem',left:'-9rem'
+                }} ></div>
+            <div style={{top:'4%',left:'68%'}}>
                 <FloatingDiv image={Crown} text1="Web" text2="Developer"/>
+            </div>
+            <div style={{top:'18rem',left:'0rem'}} >
+                <FloatingDiv image={thumbup} text1="Best Design" text2="Award"/>
             </div>
         </div>
     </div>
