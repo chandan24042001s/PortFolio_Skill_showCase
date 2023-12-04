@@ -1,13 +1,14 @@
 import React from 'react'
 import './Navbar.css'
 
+
 export const Navabar = () => {
   return (
    <>
     <div className="n-wrapper">
     <div className="n-left">
       <div className="n-name">Chandan</div>
-      <span>toggle</span>
+      {/* <Toggle/> */}
     </div>
     <div className="n-right">
       <div className="n-list">

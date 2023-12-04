@@ -1,7 +1,35 @@
-import React from "react";
+import React, {  useRef, useState } from "react";
 import "./Contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  
+  const form = useRef();
+  const [done, setDone] = useState(false)
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+
+      emailjs.sendForm(
+        "service_f7cccgb",
+        "template_ylk2daq",
+        form.current,
+        "x-sPYIhWNcXGSJk43"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          form.current.reset();
+          setDone(true);
+
+        }
+      );
+  };
 
   return (
     <div className="contact-form" id="contact">
@@ -9,7 +37,7 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span>Get in Touch</span>
+          <span >Get in Touch</span>
           <span>Contact me</span>
           <div
             className="blur s-blur1"
@@ -19,12 +47,17 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form >
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text"  name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
         
+          
+            <div class="g-recaptcha" data-sitekey="VrlQIrHu1D5Np_6PLYSjt"></div>
+    
+
+          <input type="submit" value="Send" className="button"/>
+          <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
