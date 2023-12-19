@@ -16,9 +16,9 @@ const Services = () => {
         <span >My Awesome</span>
         <span>services</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+      My comprehensive suite of offerings is designed to empower you at every stage <br/>of the development lifecycle. <br/> <br/>From front-end design to back-end architecture,<br/> our team of seasoned professionals ensures a seamless and efficient full-stack development experience.
           <br />
-          ispum is simpley dummy text of printing
+         
         </span>
        
           <button className="button s-button">Download CV</button>
@@ -27,13 +27,13 @@ const Services = () => {
       </div >
       <div className="cards">
       <div style={{left:'14rem'}} >
-        <Card emoji={HeartEmoji} heading={"Design"} detail={"Figma,Sketch,PhotoShop,AdobeXD"} />
+        <Card emoji={HeartEmoji} heading={"Developer"} detail={"React,JavaScript,NodeJs,ExpressJs,HTML,CSS,Git/GitHub,Jest,MongoDB,TailwindCSS"} />
       </div>
       <div style={{top:'12rem',left:'-4rem'}} >
-        <Card emoji={Glasses} heading={"Design"} detail={"Figma,Sketch,PhotoShop,AdobeXD"} />
+        <Card emoji={Glasses} heading={"Programming"} detail={"C++,Java,JavaScript,C,C#,.NET,SQL"} />
       </div>
       <div style={{top:'19rem',left:'12rem'}} >
-        <Card emoji={Humble} heading={"Design"} detail={"Figma,Sketch,PhotoShop,AdobeXD"} />
+        <Card emoji={Humble} heading={"UI/UX & DEsign"} detail={"Figma,Canva"} />
       </div>
       <div
           className="blur s-blur2"

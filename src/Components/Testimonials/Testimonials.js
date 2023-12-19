@@ -15,12 +15,12 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Chandan's Way  of creating and developing web app is Just Awesome.Feels like a senior developer, Every component is highly Optimized. I have collabrated once while running web Development Course and experience throughout course was commendable. ",
     },
     {
       img: profilePic2,
       review:
-        "2. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I commend him for his courteous demeanor and dedicated approach to learning. I am particularly impressed by the evident progression of his skills and his profound understanding of data structures. ",
     },
     {
       img: profilePic3,

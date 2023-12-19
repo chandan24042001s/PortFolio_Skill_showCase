@@ -22,14 +22,14 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          Explore our client roster to witness the depth and breadth of our expertise,<br/> <br/>
+           demonstrating successful partnerships and impactful solutions tailored to the <br/> <br/>
+           unique needs of each brand and client I serve
+            <br /> 
+            My commitment to excellence has led us to partner with industry leaders across <br/> various sectors.
+         
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+          
           </spane>
      
             <button className="button s-button">Hire Me</button>

@@ -14,9 +14,10 @@ function App() {
   <Navabar/>
   <Intro/>
   <Services/>
+  <Project/>
   <Experience/>
   <Works/>
-  <Project/>
+
   <Testimonial/>
   <Contact/>
   <Footer/>
