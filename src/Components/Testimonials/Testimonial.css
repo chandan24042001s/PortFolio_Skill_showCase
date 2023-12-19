@@ -4,13 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 7rem;
     flex-direction: column;
-    gap: 0rem;
+    gap: 2rem;
     position: relative;
 }
- .t-heading{
-    align-self: center;
+.t-heading{
+    align-self: start;
 }
 .t-heading>*{
     font-size: 2rem;
@@ -33,10 +33,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 2rem; 
+    padding: 2rem;
     width: 30rem;
     height: 12rem;
-     background: rgba(255, 255, 255, 0.26);
+    /* styles same as work.css */
+    background: rgba(255, 255, 255, 0.26);
     border: 7px solid var(--blueCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
@@ -51,8 +52,8 @@
 }
 
 
-/* slider */ 
- .t-wrapper .swiper {
+/* slider */
+.t-wrapper .swiper {
     width: 100%;
     height: 70%;
 }
@@ -65,19 +66,9 @@
 
 .t-wrapper .swiper-pagination-bullet-active{
     background: var(--orange);
-} 
-.t-blur1{
-    position: absolute;
-    left: 30rem;
-    top: 8rem;
-  }
-  
-  .t-blur2 {
-    position: absolute;
-    top: 27rem;
-    left: -4rem;
-  }
- @media screen and (max-width: 480px){
+}
+
+@media screen and (max-width: 480px){
     .t-wrapper{
         padding: 0;
     }

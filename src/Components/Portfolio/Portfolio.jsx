@@ -1,18 +1,19 @@
-import React from "react";
-import './Project.css'
+import React, { useContext } from "react";
+import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
-
-const Projects = () => {
-  
+import { themeContext } from "../../Context";
+const Portfolio = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span >Recent Projects</span>
+      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -39,4 +40,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Portfolio;
