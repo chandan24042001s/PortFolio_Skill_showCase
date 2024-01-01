@@ -3,7 +3,7 @@ import Intro from "./components/intro/Intro";
 
 import "./App.css";
 import Experience from "./components/experience/Experience";
-import Works from "./components/Works/Works";
+import Works from "./components/works/Works";
 
 import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/contact/Contact";

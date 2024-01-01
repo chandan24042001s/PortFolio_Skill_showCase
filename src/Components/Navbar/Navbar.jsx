@@ -1,5 +1,5 @@
 import React from "react";
-import Toggle from "../Toggle/Toggle";
+import Toggle from "../toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 const Navbar = () => {
