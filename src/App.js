@@ -30,8 +30,9 @@ function App() {
       <Intro />
       <Services />
       <Experience />
-      <Works />
       <Portfolio />
+      <Works />
+   
       <Testimonial />
       <Contact />
    
