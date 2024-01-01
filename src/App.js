@@ -1,5 +1,5 @@
 
-import Intro from "./components/intro/Intro";
+
 
 import "./App.css";
 import Experience from "./components/experience/Experience";
@@ -14,6 +14,7 @@ import { themeContext } from "./Context";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Navbar from "./components/navbar/Navbar";
+import Intro from "./components/intro/Intro";
 
 
 function App() {
