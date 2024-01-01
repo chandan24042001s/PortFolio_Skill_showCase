@@ -6,8 +6,7 @@ import "./App.css";
 
 
 
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+
 import { useContext } from "react";
 import { themeContext } from "./Context";
 
@@ -18,7 +17,7 @@ import Intro from "./components/intro/Intro";
 import Experience from "./components/experience/Experience";
 import Works from "./components/works/Works";
 import Testimonial from "./components/Testimonials/Testimonial";
-
+import Contact from "./components/contact/Contact"
 
 function App() {
   const theme = useContext(themeContext);
