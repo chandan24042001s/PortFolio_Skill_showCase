@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import './footer.css'
 import Wave from "../../img/wave.png";
 import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
 import Twitter from "@iconscout/react-unicons/icons/uil-twitter";
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="f-icons">
         <a href="https://www.linkedin.com/in/chandan-kumal777/">  <LinkedIn color="white" size={"3rem"} /> </a>
           <a href="https://github.com/chandan24042001s"> <Gitub color="white" size={"3rem"} /> </a>
-          <a href=""> <Twitter color="white" size={"3rem"} /> </a>
+          <a href="https://twitter.com/oscar_harry_sir"> <Twitter color="white" size={"3rem"} /> </a>
           
         </div>
       </div>

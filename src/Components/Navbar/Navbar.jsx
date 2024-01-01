@@ -21,7 +21,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Serivces
+                Services
               </Link>
             </li>
             <li>
@@ -31,7 +31,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="portfolio" spy={true} smooth={true}>
-                Protfolio
+                Portfolio
               </Link>
             </li>
             <li>
@@ -45,6 +45,9 @@ const navbar = () => {
         <button className="button n-button">Contact</button>
         </Link>
       </div>
+      {/* <div className="page-link">
+        <a href="Navbar"><i class="fas fa-angle-double-up"></i></a>
+      </div> */}
     </div>
   );
 };

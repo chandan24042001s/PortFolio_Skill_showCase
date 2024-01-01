@@ -34,7 +34,7 @@ function App() {
       <Portfolio />
       <Testimonial />
       <Contact />
-      <Footer />
+   
     </div>
   );
 }

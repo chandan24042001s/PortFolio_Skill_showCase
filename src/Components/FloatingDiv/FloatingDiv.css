@@ -24,3 +24,24 @@
     transform: scale(0.5);
   }
 }
+
+@media screen  and (max-width: 1024px) {
+  .floatingDiv{
+    height: 4rem;
+    width: 8rem;
+  }
+  .floatingDiv > img {
+    transform: scale(0.3);
+  }
+
+  .floatingDiv > span {
+    font-size: 14px;
+  }
+
+  @keyframes scale2 {
+    100% {
+      transform: scale(0.4);
+    }
+  }
+  
+}

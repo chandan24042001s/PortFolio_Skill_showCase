@@ -17,7 +17,7 @@ const Works = () => {
   return (
     <div className="works" id="works">
       {/* left side */}
-      <div className="w-left">
+      <div className="..left">
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>

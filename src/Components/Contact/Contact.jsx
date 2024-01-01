@@ -32,11 +32,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-form" id="contact">
+    <div className="contact-form " >
       {/* left side copy and paste from work section */}
-      <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
+        <h1 className="contact" style={{color: darkMode?'white': ''}}>Contact Me</h1>
+        <div className="contact-container">
+          {/* darkMode */}
           <div className="column left">
-              <div className="text">Reach Out to me!</div>
+              <h1 className="text">Reach Out to me!</h1>
               <p>
                 Discuss a Project or just want to say Hi? My inbox is open for
                 all.
@@ -53,14 +55,14 @@ const Contact = () => {
                   <i className="fas fa-map-marker-alt"></i>
                   <div className="info">
                     <div className="head">Address</div>
-                    <div className="sub-title">Gurgaon, Delhi</div>
+                    <div className="sub-title">Gurgaon, Haryana</div>
                   </div>
                 </div>
                 <div className="row">
                   <i className="fas fa-envelope email-icon"></i>
                   <div className="info">
                     <div className="head">Email</div>
-                    <div className="sub-title">@gmail.com</div>
+                    <div className="sub-title">chandankumal977@gmail.com</div>
                   </div>
                 </div>
               </div>
@@ -110,21 +112,21 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-
-              
-              </div>
             </div>
+          </div>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
           ></div>
       {/* right side form */}
       <div className="c-right">
+        <h1 className="text">Message Me</h1>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+          {/* <input type="submit" value="Send" className="c-button"/> */}
+          <button className="c-button">Send</button>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
@@ -132,6 +134,7 @@ const Contact = () => {
           ></div>
         </form>
       </div>
+        </div>
     </div>
   );
 };

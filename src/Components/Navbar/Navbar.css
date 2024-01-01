@@ -31,7 +31,7 @@
 .n-list > ul {
   display: flex;
   gap: 2rem;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 
 .n-list > ul :hover {
@@ -41,6 +41,33 @@
 
 .n-button {
   flex: 2;
+}
+.page-link{
+  height: 50px;
+  width: 47px;
+  background-color: var(--orange);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  right: 30px;
+  bottom: 30px;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+}
+.page-link > a {
+  color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  .app{
+    padding: 10px 10px;
+  }
+  .n-list > ul {
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
