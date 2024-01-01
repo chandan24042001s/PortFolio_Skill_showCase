@@ -2,7 +2,7 @@
 
 
 import "./App.css";
-import Experience from "./components/experience/Experience";
+
 import Works from "./components/works/Works";
 
 import Testimonial from "./components/Testimonials/Testimonial";
@@ -15,6 +15,7 @@ import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
+import Experience from "./components/experience/Experience";
 
 
 function App() {
