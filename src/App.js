@@ -21,6 +21,11 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
+        {/* <!-- Scroll Button start --> */}
+      <div class="scroll-up-btn">
+         <i class="fas fa-angle-double-up"></i>
+      </div>
+      {/* <!-- Scroll Button end --> */}
       <Navbar />
       <Intro />
       <Services />

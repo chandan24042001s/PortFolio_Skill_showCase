@@ -34,17 +34,90 @@ const Contact = () => {
   return (
     <div className="contact-form" id="contact">
       {/* left side copy and paste from work section */}
-      <div className="w-left">
-        <div className="awesome">
-          {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
+      <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
+          <div className="column left">
+              <div className="text">Reach Out to me!</div>
+              <p>
+                Discuss a Project or just want to say Hi? My inbox is open for
+                all.
+              </p>
+              <div className="icons">
+                <div className="row">
+                  <i className="fas fa-user"></i>
+                  <div className="info">
+                    <div className="head">Name</div>
+                    <div className="sub-title">Chandan Kumal</div>
+                  </div>
+                </div>
+                <div className="row">
+                  <i className="fas fa-map-marker-alt"></i>
+                  <div className="info">
+                    <div className="head">Address</div>
+                    <div className="sub-title">Gurgaon, Delhi</div>
+                  </div>
+                </div>
+                <div className="row">
+                  <i className="fas fa-envelope email-icon"></i>
+                  <div className="info">
+                    <div className="head">Email</div>
+                    <div className="sub-title">@gmail.com</div>
+                  </div>
+                </div>
+              </div>
+              <div className="text1">Stay Connected</div>
+              <div>
+                <div className="wrapper">
+                  <div className="button1">
+                    <div className="icon">
+                      <a
+                        href="https://www.linkedin.com/in/chandan-kumal777/"
+                        target="_blank"
+                      >
+                        <i className="fab fa-linkedin" id="icons"></i>{" "}
+                      </a>
+                    </div>
+                    <a href="https://www.linkedin.com/in/chandan-kumal777/">
+                      <span className="icon-text">LinkedIn</span>
+                    </a>
+                  </div>
+                  <div className="buttonmob">
+                    <div className="button1">
+                      <div className="icon">
+                        <a
+                          href="https://twitter.com/oscar_harry_sir"
+                          target="_blank"
+                        >
+                          <i className="fab fa-twitter" id="icons"></i>
+                        </a>
+                      </div>
+                      <a href="https://twitter.com/oscar_harry_sir">
+                        <span className="icon-text">Twitter </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="buttonmob1"></div>
+                  <div className="button1">
+                    <div className="icon">
+                      <a
+                        href="https://github.com/chandan24042001s?tab=repositories"
+                        target="_blank"
+                      >
+                        <i className="fab fa-github" id="icons"></i>
+                      </a>
+                    </div>
+                    <a href="https://github.com/chandan24042001s?tab=repositories">
+                      <span className="icon-text">Github </span>
+                    </a>
+                  </div>
+                </div>
+
+              
+              </div>
+            </div>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
           ></div>
-        </div>
-      </div>
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
