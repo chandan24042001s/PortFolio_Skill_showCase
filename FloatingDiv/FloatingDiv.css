@@ -1,0 +1,47 @@
+.floatingDiv {
+  justify-content: space-around;
+  background: white;
+  box-shadow: var(--boxShadow);
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  padding: 0px 28px 0px 0px;
+  height: 4.5rem;
+}
+.floatingDiv > img {
+  transform: scale(0.4);
+  animation: scale2 1s linear infinite alternate-reverse;
+}
+.floatingDiv > span {
+  font-family: sans-serif;
+  font-size: 16px;
+  /* yahan ye color add kia hy bad mein dark mode k waqt */
+  color: black;
+}
+
+@keyframes scale2 {
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+@media screen  and (max-width: 1024px) {
+  .floatingDiv{
+    height: 4rem;
+    width: 8rem;
+  }
+  .floatingDiv > img {
+    transform: scale(0.3);
+  }
+
+  .floatingDiv > span {
+    font-size: 14px;
+  }
+
+  @keyframes scale2 {
+    100% {
+      transform: scale(0.4);
+    }
+  }
+  
+}
