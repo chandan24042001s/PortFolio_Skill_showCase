@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./services.css";
-import Card from "../Card/Card";
+import Card from "../card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";

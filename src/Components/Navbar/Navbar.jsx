@@ -2,7 +2,7 @@ import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
@@ -54,4 +54,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
