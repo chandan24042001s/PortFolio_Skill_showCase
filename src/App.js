@@ -3,9 +3,9 @@
 
 import "./App.css";
 
-import Works from "./components/works/Works";
 
-import Testimonial from "./components/Testimonials/Testimonial";
+
+
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import { useContext } from "react";
@@ -16,6 +16,8 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
 import Experience from "./components/experience/Experience";
+import Works from "./components/works/Works";
+import Testimonial from "./components/Testimonials/Testimonial";
 
 
 function App() {
