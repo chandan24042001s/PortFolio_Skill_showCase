@@ -2,18 +2,17 @@ import React, { useContext, useEffect, useRef } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
+import User from "../../img/User.png"
 
 import LeetCode from "../../img/leetcode.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
-import FloatinDiv from "../floatingDiv/FloatingDiv";
+import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 import Typed from "typed.js";
 const Intro = () => {
   const el = useRef(null);
@@ -22,10 +21,10 @@ const Intro = () => {
     const typed = new Typed(el.current, {
       strings: [
         "Full Stack Developer",
-        "Web Developer",
+        "React Developer",
         "UI-UX Designer",
         "Backend Developer",
-        "Coder",
+        "Problem solver",
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -85,7 +84,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src="" alt="" />
+        <img src={User} alt="" className="user-img" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

@@ -1,24 +1,15 @@
-
-
-
+import Navbar from "./Components/Navbar/Navbar";
+import Intro from "./Components/Intro/Intro";
+import Services from "./Components/Services/Services";
 import "./App.css";
-
-
-
-
-
+import Experience from "./Components/Experience/Experience";
+import Works from "./Components/Works/Works";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Testimonial from "./Components/Testimonials/Testimonial";
+import Oscar from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
-
-import Services from "./components/services/Services";
-import Portfolio from "./components/portfolio/Portfolio";
-import Navbar from "./components/navbar/Navbar";
-import Intro from "./components/intro/Intro";
-import Experience from "./components/experience/Experience";
-import Works from "./components/works/Works";
-import Testimonial from "./components/Testimonials/Testimonial";
-import Contact from "./components/contact/Contact"
-
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -30,21 +21,16 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-        {/* <!-- Scroll Button start --> */}
-      <div class="scroll-up-btn">
-         <i class="fas fa-angle-double-up"></i>
-      </div>
-      {/* <!-- Scroll Button end --> */}
       <Navbar />
       <Intro />
       <Services />
-      <Experience />
       <Portfolio />
+      <Experience />
       <Works />
-   
+     
       <Testimonial />
-      <Contact />
-   
+      <Oscar/>
+      <Footer />
     </div>
   );
 }
