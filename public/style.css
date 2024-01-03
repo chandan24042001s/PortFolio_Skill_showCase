@@ -6,7 +6,8 @@
     position: fixed;
     height: 50px;
     width: 47px;
-    background: crimson;
+    /* background: crimson; */
+    background: var(--orange);
     right: 30px;
     bottom: 10px;
     text-align: center;
