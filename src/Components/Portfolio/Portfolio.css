@@ -1,48 +1,84 @@
 .portfolio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 15rem;
+  }
 
-}
-/* heading */
-.portfolio span:nth-of-type(1) {
-  color: var(--black);
-  font-size: 2rem;
-  font-weight: bold;
-}
+  .project-card{
+    border: 2px solid var(--orange);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+  }
+  /* heading */
+  .portfolio span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .portfolio span:nth-of-type(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* slider */
+  .portfolio .swiper{
+      overflow: visible!important;
+  }
+  
+  .portfolio-slider {
+    margin-top: 3rem;
+    width: 117%;
+  }
+  
+  .portfolio-slider .swiper-slide {
+    width: 20rem;
+  }
+  .portfolio img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+  }
+  h1{
+    font-weight: 500;
+  }
+  .description{
+    font-size: 14px;
+    color: var(--gray);
+  }
 
-.portfolio span:nth-of-type(2) {
-  color: var(--orange);
-  font-size: 2.5rem;
-  font-weight: bold;
-}
+  .link{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn{
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+  }
+  .btn:hover {
+    background: white;
+    cursor: pointer;
+    color: var(--orange);
+  }
 
-/* slider */
-.portfolio .swiper{
-    overflow: visible!important;
-}
-
-.portfolio-slider {
-  margin-top: 3rem;
-  width: 110%;
-}
-
-.portfolio-slider .swiper-slide {
-  width: 20rem;
-}
-.portfolio img {
-  width: 20rem;
-  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-  border-radius: 19px;
-}
-h1{
-  font-weight: 500;
-}
-.description{
-  font-size: 16px;
-  color: var(--gray);
-}
-
-
+  @media screen and (max-width: 480px){
+    .link{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        padding: 0.4rem 1rem ;
+        margin-bottom: 1rem;
+    }
+  }

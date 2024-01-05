@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import '../../img/Netflix.png'
+import Github from "../../img/github.png";
 // import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
@@ -18,7 +19,7 @@ const Portfolio = () => {
         "title": "HIGHLY SCALABLE MOVIE STREAMING APP",
         "description": "Revolutionize the entertainment industry by delivering a GPT integrated seamless and high-performance streaming experience  made using react,redux store and firebase .",
         "url": "https://gpt-powered-net-flix.vercel.app/", 
-        "github": "https://github.com/redoxrj/real_time_chat_app",
+        "github": "https://github.com/chandan24042001s/GPT-Powered-NetFlix",
         "imgSrc": "https://res.cloudinary.com/dnomqanhp/image/upload/v1704314655/project-thumbnails/ictxwpq767b2iiboy6d5.png"
       },
       {
@@ -80,16 +81,25 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
-        {projects.map((item)=>(
-           <SwiperSlide>
-           <img src={item.imgSrc}     alt="" />
-           <h1>{item.title}</h1>
-           {/* <h3>{item.date}</h3> */}
-           <p className="description">{item.description}</p>
-           {/* <button className="button s-button">Visit</button> */}
-           <a href={item.url}  className="button s-button">Visit</a>
-         </SwiperSlide>
-        ))}
+{projects.map((item)=>{
+ let description = item.description;
+ if (description.length > 200) {
+   description = description.substring(0, 200) + "...";
+ }
+ return (
+   <SwiperSlide>
+     <div className="project-card">
+       <img src={item.imgSrc} alt="" />
+       <h1>{item.title}</h1>
+       <p className="description" maxLength={200}>{description}</p>
+       <div className="link">
+         <a href={item.url} className="btn">Visit</a>
+         <a href={item.github} className="btn">Github</a>
+       </div>
+     </div>
+   </SwiperSlide>
+ );
+})}
       </Swiper>
     </div>
   );

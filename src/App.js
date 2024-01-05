@@ -23,8 +23,9 @@ function App() {
     >
       <Navbar />
       <Intro />
-      <Services />
       <Portfolio />
+      <Services />
+     
       <Experience />
       <Works />
      
