@@ -7,7 +7,7 @@ import Works from "./Components/Works/Works";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Testimonial from "./Components/Testimonials/Testimonial";
 import Oscar from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
+
 import { useContext } from "react";
 import { themeContext } from "./Context";
 function App() {
@@ -25,13 +25,12 @@ function App() {
       <Intro />
       <Portfolio />
       <Services />
-     
+
       <Experience />
       <Works />
-     
+
       <Testimonial />
-      <Oscar/>
-      <Footer />
+      <Oscar />
     </div>
   );
 }
