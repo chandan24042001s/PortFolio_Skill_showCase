@@ -7,7 +7,7 @@ import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
+import profilePic3 from "../../img/shradha-didi.jpeg";
 import profilePic4 from "../../img/profile4.jpg";
 
 const Testimonial = () => {
@@ -61,7 +61,7 @@ const Testimonial = () => {
                 <div>
                 <img src={client.img} alt="" />
                 <div>
-                  <h1> {client.instructor}</h1>
+                  <h1 className="text"> {client.instructor}</h1>
                 </div>
                 </div>
                 <span>{client.review}</span>

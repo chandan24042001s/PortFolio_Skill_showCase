@@ -50,7 +50,9 @@
 .testimonial>span{
     color: var(--gray);
 }
-
+.text{
+    font-size:25px;
+}
 
 /* slider */
 .t-wrapper .swiper {

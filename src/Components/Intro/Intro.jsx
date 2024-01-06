@@ -74,7 +74,7 @@ const Intro = () => {
             {" "}
             <img src={LinkedIn} alt="linkedin" />{" "}
           </a>
-          <a href="/">
+          <a href="https://leetcode.com/chandankumal977/">
             {" "}
             <img src={LeetCode} className="leet-code" alt="twitter" />{" "}
           </a>

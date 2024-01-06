@@ -7,8 +7,8 @@
   font-size: 2.4rem;
   color: var(--orange);
   font-weight: bold;
-  margin: 0;
-  margin-bottom: 5rem;
+  margin: 4rem;
+  
 }
 .contact-form .contact-container {
   display: flex;
@@ -40,6 +40,7 @@
 }
 .contact-form .contact-container .left .icons {
   margin: 10px 0;
+  
 }
 .contact-form .contact-container .row {
   height: 65px;
@@ -230,6 +231,7 @@ a {
 .contact-form {
   padding: 0 1rem 0 1rem;
   height: 80vh;
+  margin-bottom: 4rem;
   /* margin-top: 4rem; */
   /* scroll */
   /* padding-top: 3rem; */
@@ -282,4 +284,21 @@ textarea {
   font-weight: bold;
   color: var(--orange);
 
+}
+
+
+.icon {
+  background-color: var(--black);
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 3rem;
+  border-radius: 50%;
+  
+}
+i{
+  color: crimson; 
+  font-size: 1.2rem;
 }
