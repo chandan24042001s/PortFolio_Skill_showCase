@@ -10,7 +10,7 @@
     position: relative;
 }
 .t-heading{
-    align-self: start;
+    align-self: center;
 }
 .t-heading>*{
     font-size: 2rem;
@@ -42,7 +42,7 @@
     box-shadow: var(--boxShadow);
     border-radius: 20px;
 }
-.testimonial>img{
+.testimonial>div>img{
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
