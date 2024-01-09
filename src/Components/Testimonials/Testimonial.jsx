@@ -28,13 +28,13 @@ const Testimonial = () => {
       img: profilePic3,
       instructor:"Shraddha Khapra",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Best working Experience with Chandan. Best Mentor in my official discord channel Apna colage",
     },
     {
       img: profilePic4,
       instructor:"Striver",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I am amazed by his problem solving Skills. Analyzing and observation of the solution and attitute towards problem is just out of the box.",
     },
   ];
 
