@@ -15,7 +15,7 @@ const Portfolio = () => {
   const projects= [
     {
       "date": "5/1/2024",
-      "title": "TRENDYHUB- A Dynamic MERN Ecommerce APP",
+      "title": "TRENDYHUB-Dynamic MERN Ecommerce App",
       "description": "Developed a mindblowing Mern Stack Ecommerce App using the full potential of React,NodeJs,Express,MongoDB with amazing Features like User Authentification, Payment Integration and much more.. ",
       "url": "https://trendify-hub777.vercel.app/",
       "github": "https://github.com/chandan24042001s/TrendyHub-MERN-Ecommerce-App",
