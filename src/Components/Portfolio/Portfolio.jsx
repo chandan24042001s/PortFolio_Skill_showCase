@@ -19,7 +19,7 @@ const Portfolio = () => {
       "description": "Developed a mindblowing Mern Stack Ecommerce App using the full potential of React,NodeJs,Express,MongoDB with amazing Features like User Authentification, Payment Integration and much more.. ",
       "url": "https://food-villa-empire.netlify.app/",
       "github": "https://github.com/chandan24042001s/TrendyHub-MERN-Ecommerce-App",
-      "imgSrc": "https://res.cloudinary.com/dxotyahfw/image/upload/v1705864423/samples/food/WhatsApp_Image_2024-01-22_at_12.41.38_AM_kpco9z.jpg"
+      "imgSrc": "https://res.cloudinary.com/dxotyahfw/image/upload/v1705865156/samples/food/WhatsApp_Image_2024-01-22_at_12.55.37_AM_bgzo5i.jpg"
     },
     {
       "date": "5/10/2023",
