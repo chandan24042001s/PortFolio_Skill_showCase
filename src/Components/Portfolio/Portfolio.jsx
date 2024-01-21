@@ -13,7 +13,22 @@ const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const projects= [
-
+    {
+      "date": "5/1/2024",
+      "title": "TRENDYHUB- A Dynamic MERN Ecommerce APP",
+      "description": "Developed a mindblowing Mern Stack Ecommerce App using the full potential of React,NodeJs,Express,MongoDB with amazing Features like User Authentification, Payment Integration and much more.. ",
+      "url": "https://food-villa-empire.netlify.app/",
+      "github": "https://github.com/chandan24042001s/TrendyHub-MERN-Ecommerce-App",
+      "imgSrc": "https://res.cloudinary.com/dxotyahfw/image/upload/v1705864423/samples/food/WhatsApp_Image_2024-01-22_at_12.41.38_AM_kpco9z.jpg"
+    },
+    {
+      "date": "5/10/2023",
+      "title": "FOODVILLA- Food Ordering App",
+      "description": "leveraging Live Swiggy API integration and implemented with a robust technology stack featuring React and Redux store ",
+      "url": "https://food-villa-empire.netlify.app/",
+      "github": "https://github.com/chandan24042001s/Building-Food-Delivery-App-FOOD-VILLa",
+      "imgSrc": "https://res.cloudinary.com/dnomqanhp/image/upload/v1704314655/project-thumbnails/rta7gmsistmxdpcw8yem.png"
+    },
       {
         "date": "1/10/2023",
         "title": "HIGHLY SCALABLE MOVIE STREAMING APP",
@@ -22,14 +37,7 @@ const Portfolio = () => {
         "github": "https://github.com/chandan24042001s/GPT-Powered-NetFlix",
         "imgSrc": "https://res.cloudinary.com/dnomqanhp/image/upload/v1704314655/project-thumbnails/ictxwpq767b2iiboy6d5.png"
       },
-      {
-        "date": "5/10/2023",
-        "title": "FOODVILLA- Food Ordering App",
-        "description": "leveraging Live Swiggy API integration and implemented with a robust technology stack featuring React and Redux store ",
-        "url": "https://food-villa-empire.netlify.app/",
-        "github": "https://github.com/chandan24042001s/Building-Food-Delivery-App-FOOD-VILLa",
-        "imgSrc": "https://res.cloudinary.com/dnomqanhp/image/upload/v1704314655/project-thumbnails/rta7gmsistmxdpcw8yem.png"
-      },
+   
       {
       "date": "5/10/2023",
       "title": "VIDEO STREAMING APP- Youtube",
