@@ -13,14 +13,14 @@ const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const projects= [
-    {
-      "date": "5/1/2024",
-      "title": "TRENDYHUB-Dynamic MERN Ecommerce App",
-      "description": "Developed a mindblowing Mern Stack Ecommerce App using the full potential of React,NodeJs,Express,MongoDB with amazing Features like User Authentification, Payment Integration and much more.. ",
-      "url": "https://trendify-hub777.vercel.app/",
-      "github": "https://github.com/chandan24042001s/TrendyHub-MERN-Ecommerce-App",
-      "imgSrc": "https://res.cloudinary.com/dxotyahfw/image/upload/v1705865156/samples/food/WhatsApp_Image_2024-01-22_at_12.55.37_AM_bgzo5i.jpg"
-    },
+   {
+    "date": "15/1/2024",
+    "title": "SHOPO- MultiVendor MERN Ecommerce App ",
+    "description":"Developed the amazing Ecommerce app featuring Payment integration, Product Dashboard,Live Chat with seler using Socket.io ,MindBlowing UI/UX using React,TailwindCss, ",
+    "url": "https://multi-vendor-chandan.vercel.app/",
+    "github": "https://github.com/chandan24042001s/Multi-Vendor",
+    "imgSrc":"https://res.cloudinary.com/dxotyahfw/image/upload/v1706780241/avatars/WhatsApp_Image_2024-02-01_at_2.58.03_PM_gy8o6d.jpg"
+   },
     {
       "date": "5/10/2023",
       "title": "FOODVILLA- Food Ordering App",
@@ -36,6 +36,14 @@ const Portfolio = () => {
         "url": "https://gpt-powered-net-flix.vercel.app/", 
         "github": "https://github.com/chandan24042001s/GPT-Powered-NetFlix",
         "imgSrc": "https://res.cloudinary.com/dnomqanhp/image/upload/v1704314655/project-thumbnails/ictxwpq767b2iiboy6d5.png"
+      }, 
+      {
+        "date": "5/1/2024",
+        "title": "TRENDYHUB-Dynamic MERN Ecommerce App",
+        "description": "Developed a mindblowing Mern Stack Ecommerce App using the full potential of React,NodeJs,Express,MongoDB with amazing Features like User Authentification, Payment Integration and much more.. ",
+        "url": "https://trendify-hub777.vercel.app/",
+        "github": "https://github.com/chandan24042001s/TrendyHub-MERN-Ecommerce-App",
+        "imgSrc": "https://res.cloudinary.com/dxotyahfw/image/upload/v1705865156/samples/food/WhatsApp_Image_2024-01-22_at_12.55.37_AM_bgzo5i.jpg"
       },
    
       {
