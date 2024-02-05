@@ -64,7 +64,7 @@ const Testimonial = () => {
                   <h1 className="text"> {client.instructor}</h1>
                 </div>
                 </div>
-                <span>{client.review}</span>
+                <p>{client.review}</p>
               </div>
             </SwiperSlide>
           );

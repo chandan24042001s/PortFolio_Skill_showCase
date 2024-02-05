@@ -78,4 +78,9 @@
         width: 70px;
         height: 70px;
     }
+    .testimonial{
+        height: auto;
+        padding: 1rem 1rem;
+
+    }
   }
