@@ -2,7 +2,7 @@
   display: flex;
   height: 77vh;
   margin-top: 6rem;
-  margin-bottom: 0rem;
+  margin-bottom: 4rem;
 }
 
 /* left side styling */
@@ -71,9 +71,9 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(1);
+  transform: scale(0.8);
   left: 10%;
-  bottom: 30%;
+  bottom: 10%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
